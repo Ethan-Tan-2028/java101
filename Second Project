@@ -1,0 +1,17 @@
+public class Main {
+
+
+  public static void main(String[] args) {
+    int board[][]  = {{2,4,5},{1,5,7},{7,5,7}};
+    int boardvalue=0;
+    for(int i=0;i<3;i++){
+      for(int j=0;j<3;j++){
+        boardvalue += board[i][j];
+  }
+
+  }
+    System.out.println(boardvalue);
+
+  }
+}
+
