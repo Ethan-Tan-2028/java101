@@ -1,0 +1,12 @@
+public class Main {
+
+  public static void main(String[] Fibonacci) {
+int firstnumber=0;
+int secondnumber=1;
+int range=6;
+    for(firstnumber=0;firstnumber<range;secondnumber=firstnumber+secondnumber,firstnumber=secondnumber-firstnumber)
+      {
+System.out.println(secondnumber);
+      }
+}
+}
