@@ -1,0 +1,10 @@
+public class Main {
+
+  public static void main(String[] reverseArray) {
+    int[] arr = { 2, 5, 6, 3, 2, 1, 4, 5, 6, 7, 8, 9 };
+    for (int intergeramount = arr.length-1;intergeramount > -1; intergeramount--) {
+      System.out.println(arr[intergeramount]);
+    }
+
+  }
+}
